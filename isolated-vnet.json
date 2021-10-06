@@ -1,0 +1,27 @@
+{
+    "properties": {
+      "preferredOsType": "Linux",
+      "preferredLocation": "<your-chosen-region>",
+      "storageProfile": {
+        "storageAccountResourceId": "/subscriptions/<your-subscription-id>/resourcegroups/<your-resource-group>/providers/Microsoft.Storage/storageAccounts/<your-storage-account-name>",
+        "fileShareName": "<your-preferred-share-name>",
+        "diskSizeInGB": 5
+      },
+      "terminalSettings": {
+        "fontSize": "Medium",
+        "fontStyle": "Monospace"
+      },
+      "preferredShellType": "bash",
+      "vnetSettings": {
+        "networkProfileResourceId": "/subscriptions/<your-subscription-id>/resourceGroups/<resourcegroup-name>/providers/Microsoft.Network/networkProfiles/<network-profile-name>",
+        "relayNamespaceResourceId": "/subscriptions/<your-subscription-id>/resourceGroups/<resourcegroup-name>/providers/Microsoft.Relay/namespaces/<cloud-shell-relay-name>",
+        "isolatedStorageProfile": {
+          "storageAccountResourceId": "/subscriptions/<your-subscription-id>/resourcegroups/<resourcegroup-name>/providers/Microsoft.Storage/storageAccounts/<storage-account-name>",
+          "fileShareName": "file-share-name",
+          "diskSizeInGB": 5
+        },
+        "location": "<region>"
+      },
+      "networkType": "Isolated"
+    }
+  }

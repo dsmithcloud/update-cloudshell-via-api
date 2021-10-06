@@ -1,0 +1,16 @@
+{
+    "properties": {
+      "preferredOsType": "Linux",
+      "preferredLocation": "<your-chosen-region>",
+      "storageProfile": {
+        "storageAccountResourceId": "/subscriptions/<your-subscription-id>/resourcegroups/<your-resource-group>/providers/Microsoft.Storage/storageAccounts/<your-storage-account-name>",
+        "fileShareName": "<your-preferred-share-name>",
+        "diskSizeInGB": 5
+      },
+      "terminalSettings": {
+        "fontSize": "Medium",
+        "fontStyle": "Monospace"
+      },
+    "networkType":"Default"
+    }
+  }
